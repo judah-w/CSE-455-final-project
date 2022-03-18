@@ -1,8 +1,8 @@
-## Welcome to GitHub Pages
+# CSE 455 Final Project: QuickDraw x Yolo = Swag
 
-You can use the [editor on GitHub](https://github.com/judah-w/CSE-455-final-project/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Problem Summary
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Our project does not necessarily solve a problem, however it is more of a fun/creative idea revolving around drawing/art. Similar to the Google Draw website found [here](https://quickdraw.withgoogle.com), our program/idea will, at its root, do the same thing. However, unlike Google Draw, our project will be able to  analyze multiple sketches within a single image. Currently the website looks for a single drawing. For example, if it wants a cat and I draw an apple in one corner and draw a cat in the middle, the AI doesn’t recognize that we’re drawing a cat no matter how well I draw it because it has noise from the corner image of an apple that it tries to consider as well. From here, we want to convert these images to an actual image of that sketch of relatively the same size in a new image. For example if we draw a tree and a cat sitting below the tree, the program would identify that there’s a tree and a cat in the image, then put labeled bounding boxes around them (saving pixel locations of the box) and then use machine learning to replace the image with an emoji of that label.
 
 ### Markdown
 
