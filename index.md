@@ -28,7 +28,7 @@ Following the tutorial found [here](https://colab.research.google.com/drive/1_Gd
 
 We used and tweaked a [quickdraw UI](https://www.kaggle.com/aleksandradeis/getting-started-with-pytorch-for-quick-draw/notebook) to allow users to draw sketches in a little box, clear it, and try again. After a user draws an image, we identify it and replace it with an emoji using components from [here](https://github.com/akshaybahadur21/QuickDraw). With more time, hopefully we can train our model to have better accuracy and be able to add more categories as well as improve its overall usability.
 
-# Team
+## Team
 
 Tim Mandzyuk
 Andrew Mazzawi
