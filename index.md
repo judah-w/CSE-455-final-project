@@ -1,4 +1,4 @@
-# CSE 455 Final Project: QuickDraw x Yolo = Swag
+# QuickDraw x Yolo
 
 ## Problem Summary
 
