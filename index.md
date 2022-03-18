@@ -30,8 +30,5 @@ We used and tweaked a [quickdraw UI](https://www.kaggle.com/aleksandradeis/getti
 
 ## Team
 
-Tim Mandzyuk
-Andrew Mazzawi
-Jiamae Wang
-Judah Wyllie
+Tim Mandzyuk, Andrew Mazzawi, Jiamae Wang, Judah Wyllie
 
