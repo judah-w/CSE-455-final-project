@@ -8,7 +8,24 @@ Our project does not necessarily solve a problem, however it is more of a fun/cr
 ## Data and Data Processing
 For our data, we used the [Quick Draw dataset](https://www.kaggle.com/code/aleksandradeis/getting-started-with-pytorch-for-quick-draw/data), which is made up of over 50 million sketches, ranging across 345 different categories. These categories include everything from airplanes to zigzags and everything in between! For our model, we train on only 8 categories which include bicycle, eye, face, pear, radio, house, cat, and car. 
 
-Once we have the sketches for those 8 categories downloaded, we create combined data such that we have a bunch of random sketches in one jpg and label all bounding boxes with the appropriate label for that box. For example, if we generated a random image that had an eye, pear, and cat, our image would include those 3 random sketches and then create the corresponding label file in the form of a label number and the four normalized coordinates from the image.
+Once we have the sketches for those 8 categories downloaded, we create combined data such that we have a bunch of random sketches in one jpg and label all bounding boxes with the appropriate label for that box. For example, if we generated a random image that had an eye, pear, and cat, our image would include those 3 random sketches and then create the corresponding label file in the form of a label number and the four normalized coordinates from the image as seen below.
+
+![image](https://user-images.githubusercontent.com/56496451/159102619-3bac18ab-8af2-45f9-857e-8afe4f0db9b5.png) 
+
+```txt
+0 0.12890625 0.0556640625 0.2490234375 0.111328125
+1 0.3857421875 0.0634765625 0.244140625 0.1279296875
+5 0.580078125 0.1240234375 0.1279296875 0.2490234375
+```
+
+![image](https://user-images.githubusercontent.com/56496451/159102654-c4f86798-34b3-4725-a79d-19a8ce306655.png) 
+
+```txt
+0 0.12890625 0.0654296875 0.2490234375 0.130859375
+1 0.3828125 0.06640625 0.2490234375 0.1337890625
+2 0.6083984375 0.1240234375 0.1904296875 0.248046875
+4 0.8330078125 0.076171875 0.2490234375 0.15234375
+```
 
 ## Object Detection
 
@@ -24,9 +41,15 @@ We used YOLOv4 with Darknet for our custom object detection model.
 
 Following the tutorial found [here](https://colab.research.google.com/drive/1_GdoqCJWXsChrOiY8sZMr_zbr_fH-0Fg?usp=sharing) and taking componenets from [here](https://github.com/theAIGuysCode/OIDv4_ToolKit), we were able to customize the model to recognize 8 different categories of sketches.
 
+Using our UI, we can sketch out a house and a car. Then we can feed it to our model and ideally get the bounding boxes. We had a little trouble getting it to work completely, but it made predictions based on what was given. On the left is what our model ended up giving us and on the right there is what we wanted it to look like.
+
+![bounding box](https://media.discordapp.net/attachments/945784995182682133/954558967193956352/g8Fm0KtV4aLewAAAABJRU5ErkJggg.png) ![bounding box fake](https://user-images.githubusercontent.com/56496451/159102463-ba71584b-5586-4769-876c-af6d58255594.png)
+
 ## Final Product and Future Work
 
 We used and tweaked a [quickdraw UI](https://www.kaggle.com/aleksandradeis/getting-started-with-pytorch-for-quick-draw/notebook) to allow users to draw sketches in a little box, clear it, and try again. After a user draws an image, we identify it and replace it with an emoji using components from [here](https://github.com/akshaybahadur21/QuickDraw). With more time, hopefully we can train our model to have better accuracy and be able to add more categories as well as improve its overall usability. Next we would be able to use the object detection model to make guesses on what the it is in real time while the user is sketching.
+
+Take a look at our colab [here](https://colab.research.google.com/drive/1MEB-12PAussRq9SB8FjE16y6m6I2boCH?usp=sharing)
 
 ## Team
 
