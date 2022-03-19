@@ -53,7 +53,7 @@ We used and tweaked a [quickdraw UI](https://www.kaggle.com/aleksandradeis/getti
 
 With more time, hopefully we can train our model to have better accuracy and be able to add more categories as well as improve its overall usability. Next we would be able to use the object detection model to make guesses on what the it is in real time while the user is sketching.
 
-Take a look at our colab [here](https://colab.research.google.com/drive/1MEB-12PAussRq9SB8FjE16y6m6I2boCH?usp=sharing)
+Take a look at our colab [here](https://colab.research.google.com/drive/1MEB-12PAussRq9SB8FjE16y6m6I2boCH?usp=sharing).
 
 ## Problems :(
 
