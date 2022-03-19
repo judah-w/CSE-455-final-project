@@ -47,7 +47,11 @@ Using our UI, we can sketch out a house and a car. Then we can feed it to our mo
 
 ## Final Product and Future Work
 
-We used and tweaked a [quickdraw UI](https://www.kaggle.com/aleksandradeis/getting-started-with-pytorch-for-quick-draw/notebook) to allow users to draw sketches in a little box, clear it, and try again. After a user draws an image, we identify it and replace it with an emoji using components from [here](https://github.com/akshaybahadur21/QuickDraw). With more time, hopefully we can train our model to have better accuracy and be able to add more categories as well as improve its overall usability. Next we would be able to use the object detection model to make guesses on what the it is in real time while the user is sketching.
+We used and tweaked a [quickdraw UI](https://www.kaggle.com/aleksandradeis/getting-started-with-pytorch-for-quick-draw/notebook) to allow users to draw sketches in a little box, clear it, and try again. After a user draws an image, we identify it and replace it with an emoji using components from [here](https://github.com/akshaybahadur21/QuickDraw). 
+
+![image](https://cdn.discordapp.com/attachments/945784995182682133/954581421886959697/Screen_Shot_2022-03-18_at_8.24.43_PM.png)
+
+With more time, hopefully we can train our model to have better accuracy and be able to add more categories as well as improve its overall usability. Next we would be able to use the object detection model to make guesses on what the it is in real time while the user is sketching.
 
 Take a look at our colab [here](https://colab.research.google.com/drive/1MEB-12PAussRq9SB8FjE16y6m6I2boCH?usp=sharing)
 
