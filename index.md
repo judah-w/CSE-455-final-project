@@ -55,6 +55,15 @@ With more time, hopefully we can train our model to have better accuracy and be 
 
 Take a look at our colab [here](https://colab.research.google.com/drive/1MEB-12PAussRq9SB8FjE16y6m6I2boCH?usp=sharing)
 
+## Problems :(
+
+Where do we start with the problems we encountered...
+1. For starters, none of us have much of any experience with machine learning or working with torch and colab. This often left us in situations where issues that would be very minor for an experienced programmer would leave us scrambling to get our programs working for much too long.
+2. We had a lot of issues converting the data to a useable form for training. This first started when we were trying to implement SSD and the data format was in JSON. Despite the idea of it all being fairly straight forward, we struggled getting everything setup successfully and jumped ships to yolov4. When preparing the data for yolo, there were also many issues with representing the data, which started with normalizing the coordinates for the boxes. There was confusion with some weird math when representing the coordinates as well as normalizing the values.
+3. When training our final model, we couldn't seem to get any good data or detections. We assume this is because our sketches have a white background with no noise and could be different from real life images. There also might be some inconsistency with how we are preparing the training data, but we double checked everything multiple times so this is probably not the issue.
+
+All in all, we truly worked hard on this project but we fell short in many ways. We all learned a lot and know infintely more about how neural networks work.
+
 ## Team
 
 Tim Mandzyuk, Andrew Mazzawi, Jiamae Wang, Judah Wyllie
