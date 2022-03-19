@@ -22,7 +22,7 @@ After doing a bit more research, we decided to use YOLOv4 instead. YOLO is popul
 
 We used YOLOv4 with Darknet for our custom object detection model. 
 
-Following the tutorial found [here](https://colab.research.google.com/drive/1_GdoqCJWXsChrOiY8sZMr_zbr_fH-0Fg?usp=sharing), we were able to customize the model to recognize 8 different categories of sketches.
+Following the tutorial found [here](https://colab.research.google.com/drive/1_GdoqCJWXsChrOiY8sZMr_zbr_fH-0Fg?usp=sharing) and taking componenets from [here](https://github.com/theAIGuysCode/OIDv4_ToolKit), we were able to customize the model to recognize 8 different categories of sketches.
 
 ## Final Product and Future Work
 
