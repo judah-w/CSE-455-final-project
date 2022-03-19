@@ -41,7 +41,7 @@ We used YOLOv4 with Darknet for our custom object detection model.
 
 Following the tutorial found [here](https://colab.research.google.com/drive/1_GdoqCJWXsChrOiY8sZMr_zbr_fH-0Fg?usp=sharing) and taking componenets from [here](https://github.com/theAIGuysCode/OIDv4_ToolKit), we were able to customize the model to recognize 8 different categories of sketches.
 
-Using our UI, we can sketch out a house and a car. Then we can feed it to our model and ideally get the bounding boxes. We had a little trouble getting it to work completely, but it made predictions based on what was given. On the left is what our model ended up giving us and on the right there is what we wanted it to look like.
+Using our UI, we can sketch out a house and a car. Then we can feed it to our model and ideally get the bounding boxes. We had a little trouble getting it to work completely, but it made predictions based on what was given. On the top is what our model ended up giving us and on the bottom there is what we wanted it to look like.
 
 ![bounding box](https://media.discordapp.net/attachments/945784995182682133/954558967193956352/g8Fm0KtV4aLewAAAABJRU5ErkJggg.png) ![bounding box fake](https://user-images.githubusercontent.com/56496451/159102463-ba71584b-5586-4769-876c-af6d58255594.png)
 
