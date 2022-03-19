@@ -43,7 +43,7 @@ Following the tutorial found [here](https://colab.research.google.com/drive/1_Gd
 
 Using our UI, we can sketch out a house and a car. Then we can feed it to our model and ideally get the bounding boxes. We had a little trouble getting it to work completely, but it made predictions based on what was given. On the top is what our model ended up giving us and on the bottom there is what we wanted it to look like.
 
-![bounding box](https://media.discordapp.net/attachments/945784995182682133/954558967193956352/g8Fm0KtV4aLewAAAABJRU5ErkJggg.png) ![bounding box fake](https://user-images.githubusercontent.com/56496451/159102463-ba71584b-5586-4769-876c-af6d58255594.png)
+![bounding box](https://media.discordapp.net/attachments/945784995182682133/954574220841586748/Screen_Shot_2022-03-18_at_7.57.05_PM.png) ![bounding box fake](https://user-images.githubusercontent.com/56496451/159102463-ba71584b-5586-4769-876c-af6d58255594.png)
 
 ## Final Product and Future Work
 
